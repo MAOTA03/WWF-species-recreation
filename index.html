@@ -6,29 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WWF Website Clone</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <div class="nav-img">
-                <img src="#" alt="WWF-logo" width="50px" height="50px">
-            </div>
             <div class="nav-left">
-                <a href="#">Our work</a>
-                <a href="#">Places</a>
-                <a href="#">Species</a>
-                <a href="#">Get involved</a>
+                <div class="nav-img">
+                    <img src="#" alt="WWF-logo" width="50px" height="50px">
+                </div>
+                <div>
+                    <a href="#">Our work</a>
+                    <a href="#">Places</a>
+                    <a href="#">Species</a>
+                    <a href="#">Get involved</a>
+                </div>
             </div>
             <div class="nav-right">
-                <a href="#"><i class="fa-solid fa-search"></i></a>
-                <a href="#">Gifts</a>
-                <a href="#">Donate</a>
+                <a href="#" class="search"><i class="fa-solid fa-search"></i></a>
+                <a href="#" class="gift">Gifts</a>
+                <a href="#" class="donate">Donate</a>
             </div>
         </nav>
     </header>
     <main class="main">
-        <section class="species-into">
+        <section class="species-intro">
             <h2>Species</h2>
             <p>
                 Protecting endangered species and wildlife for a healthy planet.
@@ -314,7 +317,7 @@
                 <p>World Wildlife Fund Inc. is a nonprofit, tax-exempt charitable organization (tax ID number
                     52-1693387) under Section 501(c)(3) of the Internal Revenue Code. Donations are tax-deductible as
                     allowed by law.</p>
-                <p>© 2026 World Wildlife Fund. WWF® and ©1986 Panda Symbol are owned by WWF. All rights reserved.</p>
+                <p id="copyright">© 2026 World Wildlife Fund. WWF® and ©1986 Panda Symbol are owned by WWF. All rights reserved.</p>
             </div>
             <div class="footer-bottom-links">
                 <a href="#">Site Terms</a>

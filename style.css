@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+
+.gift {
+    background-color: rgb(73, 14, 14);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.donate {
+    background-color: brown;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.species-intro {
+    background-color: rgb(244, 244, 234);
+    padding: 20px;
+    margin: 20px;
+}
+
+.species-list {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+.species-heading {
+    background-color: #e5e5e5;
+    padding: 12px;
+    border: 1px solid #999;
+}
+.species-card{
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.species-img {
+    width: 60px;
+    height: auto;
+    border: 2px solid #ddd;
+}
+.animal-name {
+    color: #2e5e2e;
+}
+.scientific-name{
+   color: #666;
+}
+.status{
+     color: #8b0000;
+}
+footer {
+    background-color: #858582;
+    color: white;
+    padding: 25px;
+    margin-top: 30px;
+}
+.footer-links {
+    padding: 20px;
+   border-bottom: 1px solid #777;
+}
+.footer-bottom {
+    padding: 20px;
+     text-align: center;
+}
+#copyright {
+    font-size: 14px;
+    margin-top: 15px;
+    color: #ddd;
+}
